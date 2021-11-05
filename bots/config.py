@@ -1,4 +1,4 @@
-# common functionality among the bots
+# a resuable module containing the logic common to all bots
 import tweepy
 import logging
 import os
