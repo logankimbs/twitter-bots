@@ -19,6 +19,7 @@ def create_api():
         api.verify_credentials()
     except Exception as e:
         logger.error('Error creating API', exc_info=True)
+
         raise e
 
     logger.info('API was created successfully')
